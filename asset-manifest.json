@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b0a6186.chunk.css",
+    "main.js": "/static/js/main.65ed3bc2.chunk.js",
+    "main.js.map": "/static/js/main.65ed3bc2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
+    "static/js/2.8b65f433.chunk.js": "/static/js/2.8b65f433.chunk.js",
+    "static/js/2.8b65f433.chunk.js.map": "/static/js/2.8b65f433.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c7a8aa1c5e619ee703ba3aefb2e65a6a.js": "/precache-manifest.c7a8aa1c5e619ee703ba3aefb2e65a6a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.2b0a6186.chunk.css.map": "/static/css/main.2b0a6186.chunk.css.map",
+    "static/js/2.8b65f433.chunk.js.LICENSE.txt": "/static/js/2.8b65f433.chunk.js.LICENSE.txt",
+    "static/media/codechef.png": "/static/media/codechef.2363f9ba.png",
+    "static/media/codefest.jpg": "/static/media/codefest.1afcbd77.jpg",
+    "static/media/diversion.jpg": "/static/media/diversion.3dcec633.jpg",
+    "static/media/hackerknight.jpg": "/static/media/hackerknight.35c0ba4f.jpg",
+    "static/media/hackforindia.jpg": "/static/media/hackforindia.c10f6466.jpg",
+    "static/media/leetcode.png": "/static/media/leetcode.55fce3b2.png",
+    "static/media/myPic.jpg": "/static/media/myPic.f7ff53fd.jpg",
+    "static/media/problemSolving(hackerRank).png": "/static/media/problemSolving(hackerRank).ade5fcd3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ceaf4b5f.js",
+    "static/js/2.8b65f433.chunk.js",
+    "static/css/main.2b0a6186.chunk.css",
+    "static/js/main.65ed3bc2.chunk.js"
+  ]
+}

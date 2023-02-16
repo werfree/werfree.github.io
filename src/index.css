@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .navList{
+        @apply flex flex-col md:flex-row mb-10 md:mb-0 items-center
+    }
+    .navNumber{
+        @apply block text-sm text-center pb-1 md:p-0 md:pr-1 md:pt-2 font-sans
+    }
+    .navText{
+        @apply block  text-base text-center rounded md:bg-transparent md:p-0 md:text-sm md:pt-2 font-sans
+    }
+    .text-color{
+        @apply text-[#53a897]
+    }
+
+    /* Section */
+    .section-container{
+        @apply font-sans md:ml-[10%] md:mr-[10%] px-2 md:px-6 flex flex-col text-left space-y-3 snap-start h-fit lg:h-screen mb-52 lg:mb-0
+    }
+
+    .section-number{
+        @apply text-sm text-color mt-auto pb-1
+    }
+    .section-heading{
+        @apply text-2xl md:text-3xl font-extrabold font-mono text-[#ececec] 
+    }
+
+    .section-text{
+        @apply text-base  text-[#8892B0]
+    }
+    .border-color{
+        @apply border-[#53a897]
+    }
+    
+   
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+

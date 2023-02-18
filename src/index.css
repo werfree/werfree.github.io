@@ -18,7 +18,7 @@
 
     /* Section */
     .section-container{
-        @apply font-sans md:ml-[10%] md:mr-[10%] px-2 md:px-6 flex flex-col text-left space-y-3 snap-start h-fit lg:h-screen mb-52 lg:mb-0
+        @apply font-sans md:ml-[10%] md:mr-[10%] px-2 md:px-6 flex flex-col text-left space-y-3 snap-start h-fit min-h-screen lg:h-screen mb-52 lg:mb-0
     }
 
     .section-number{

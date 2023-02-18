@@ -1,5 +1,7 @@
+/* eslint-disable react/jsx-indent */
 import React from 'react';
 import PropType from 'prop-types';
+import { motion } from 'framer-motion';
 import SectionHeading from './sections/section-heading';
 import { CustomSocialIcon } from './social';
 
@@ -20,7 +22,7 @@ function ProjectDetails(prop) {
       <figcaption className="items-baseline">
         <div className="flex flex-col items-center">
           <div className="flex flex-row flex-wrap justify-evenly space-x-1 items-center">
-            {tech?.map((t) => <div className="flex-grow section-text text-xs border border-gray-700 rounded-full m-1 p-1 shadow-xl">{t}</div>)}
+            {tech?.map((t) => <div className="flex-grow section-text text-xs border border-gray-600 rounded-full m-1 p-2 shadow-xl">{t}</div>)}
           </div>
           <div className="space-y-0.5  flex flex-row justify-end items-center">
             <CustomSocialIcon link={github} />
@@ -35,35 +37,62 @@ export default function Project() {
   const projectDetails = [
     {
       name: 'Drive Safe',
-      details: 'Developed a mobile application and hardware solution to reduce the death rates from traffic collisions. The mobile app can detect accidents and can inform the nearest police stations.',
+      details: (<>
+        Developed a mobile application and hardware solution to
+        <span className="text-color"> reduce the death rates from traffic collisions</span>
+        . The mobile app can detect accidents and can inform the nearest police stations.
+                </>),
       github: 'https://github.com/werfree/Ecommerce',
       tech: ['Arduino', 'Java', 'Android'],
     },
     {
       name: 'Yogi',
-      details: 'An audio book application build for Android and IOS.',
+      details: (<>
+An
+<span className="text-color"> audiobook application </span>
+build for Android and IOS.
+                </>),
       github: 'https://github.com/werfree/Ecommerce',
       playstore: 'https://play.google.com/store/apps/details?id=com.autobiograohyofayogi',
       tech: ['React Native', 'Firebase', 'G Cloud'],
     },
     {
       name: 'My Tees',
-      details: 'A full stack E-Commerce website with Braintree payment gateway integrated .JWT was used for authentication.',
+      details: <>
+A full stack
+<span className="text-color"> E-Commerce website with Braintree payment gateway </span>
+integrated .JWT was used for authentication.
+               </>,
       github: 'https://github.com/werfree/Ecommerce',
       tech: ['MERN', 'JWT'],
     },
     {
       name: 'Life Saver',
-      details: 'A mobile application that can connect a willing blood donor to the recipient of his/her area.',
+      details: <>
+A mobile application that can connect a
+<span className="text-color"> willing blood donor to the recipient </span>
+of his/her area.
+               </>,
       github: 'https://github.com/werfree/Android/tree/master/Life_Saver',
       tech: ['Android', 'Java', 'G Map', 'Firebase'],
     },
-
   ];
 
   return (
     <div id="project" className="section-container">
-      <div className="my-auto">
+      <motion.div
+        initial={{
+          opacity: 0,
+        }}
+        whileInView={{
+          opacity: 1,
+        }}
+        transition={{
+          duration: 0.5,
+        }}
+        viewport={{ once: true }}
+
+      >
         <SectionHeading heading={{ number: '03', text: "Things I've Built" }} />
         <div>
           <div>
@@ -77,7 +106,7 @@ export default function Project() {
 
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

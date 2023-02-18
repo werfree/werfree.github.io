@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import Company from './sections/company';
 import Experience from './sections/experience';
 import SectionHeading from './sections/section-heading';
@@ -13,7 +14,19 @@ export default function Work() {
   const [activeCompany, setActiveCompany] = useState(company.infosys);
   return (
     <div id="experience" className="section-container md:mx-[20%]">
-      <div className="my-auto">
+      <motion.div
+        initial={{
+          opacity: 0,
+        }}
+        whileInView={{
+          opacity: 1,
+        }}
+        transition={{
+          duration: 0.5,
+        }}
+        viewport={{ once: true }}
+        className="my-auto"
+      >
         <SectionHeading heading={{ number: '02', text: "Where I've Worked" }} />
         <div className="flex flex-col md:flex-row">
           {/* <div className="md:col-span-1"> */}
@@ -42,7 +55,7 @@ export default function Work() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

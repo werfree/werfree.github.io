@@ -12,7 +12,6 @@ export default function Social() {
       <div
         className="flex flex-row justify-evenly md:mb-0 md:flex-col md:fixed md:left-[6%] md:bottom-0"
       >
-        <CustomSocialIcon link="mailto:gsayantan01@gmail.com" className="hidden md:block" />
         <div className="justify-center align-middle my-auto">
           <img
             style={{
@@ -31,15 +30,19 @@ export default function Social() {
         <CustomSocialIcon link="https://github.com/jaketrent" />
         <CustomSocialIcon link="https://www.linkedin.com/in/werfree" />
         <CustomSocialIcon link="https://instagram.com/werfree_" />
-        <div className="hidden md:block  md:m-auto md:w-[1px] md:h-[80px]  bg-[#8892B0] " />
+        <div className="hidden md:block  md:m-auto md:w-[1px] md:h-[90px]  bg-[#8892B0] " />
       </div>
       <div
         className="flex flex-row justify-evenly mt-10 md:flex-col md:fixed md:right-[.5%] md:bottom-0"
       >
-        <div className="text-[#8892B0] mb-5 text-xs md:rotate-90 md:mb-[120px]">
-          Designed & Build by Sayantan Ghosh
+        <div className="hidden md:block ">
+          <div className="md:rotate-90 mb-5 text-sm md:mb-[95px] tracking-wide">
+            <a href="mailto:gsayantan01@gmail.com" className="text-[#8892B0] ">
+              gsayantan01@gmail.com
+            </a>
+          </div>
+          <div className="md:m-auto md:w-[1px] md:h-[90px]  bg-[#8892B0] " />
         </div>
-        <div className="hidden md:block  md:m-auto md:w-[1px] md:h-[80px]  bg-[#8892B0] " />
       </div>
     </>
   );

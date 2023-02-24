@@ -225,7 +225,7 @@ export default function Navbar() {
                       {' '}
                       {' '}
                     </div>
-                    <a target="_blank" href="https://drive.google.com/file/d/1EiOwbpeiDps2OavrW0NEzsYOkJ26gLud/view?usp=share_link" className="p-2 px-3 text-center rounded-lg md:bg-transparent  md:text-sm font-sans border border-color text-color mt-2" aria-current="page" rel="noreferrer">Resume</a>
+                    <a target="_blank" href="https://drive.google.com/file/d/19z6Gdy07eNq_3r6L9d5oXKT0eBonBfM8/view?usp=share_link" className="p-2 px-3 text-center rounded-lg md:bg-transparent  md:text-sm font-sans border border-color text-color mt-2" aria-current="page" rel="noreferrer">Resume</a>
                   </li>
                 </motion.div>
               </ul>

@@ -12,7 +12,7 @@ export default function Social() {
       <div
         className="flex flex-row justify-evenly md:mb-0 md:flex-col md:fixed md:left-[6%] md:bottom-0"
       >
-        <div className="justify-center align-middle my-auto">
+        <a target="_blank" href="tel:+919831516058" className="justify-center align-middle my-auto" rel="noreferrer">
           <img
             style={{
               display: 'inline-block',
@@ -26,8 +26,8 @@ export default function Social() {
             className="md:my-3"
             alt=""
           />
-        </div>
-        <CustomSocialIcon link="https://github.com/jaketrent" />
+        </a>
+        <CustomSocialIcon link="https://github.com/werfree" />
         <CustomSocialIcon link="https://www.linkedin.com/in/werfree" />
         <CustomSocialIcon link="https://instagram.com/werfree_" />
         <div className="hidden md:block  md:m-auto md:w-[1px] md:h-[90px]  bg-[#8892B0] " />

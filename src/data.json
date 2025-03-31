@@ -1,0 +1,48 @@
+{
+  "experiences": [
+    {
+      "position": "Specialist Programmer",
+      "company": "Apple, Infosys",
+      "type": "Full-Time",
+      "from": "Aug, 2022",
+      "to": "Present",
+      "details": "I develop highly interactive web applications for Apple using React, creating seamless user experiences. I specialize in building reusable UI components, reducing development time by 20%, and optimizing state management with Redux for efficient data flow. As a Certified Full-Stack Developer, I have expertise in the MERN stack, enabling me to tackle complex web development challenges effectively."
+    },
+    {
+      "position": "Software Engineer",
+      "company": "BlueCap",
+      "type": "Intern",
+      "from": "Aug, 2021",
+      "to": "July, 2022",
+      "details": "Designed and built a scalable backend infrastructure using NestJS and GraphQL, ensuring system robustness and maintainability. I implemented Attribute-Based Access Control (ABAC) with CASL to enhance security and event-driven communication with Kafka, improving system performance by 20% and reducing failures by 50%."
+    },
+    {
+      "position": "Software Developer",
+      "company": "Healthood",
+      "type": "Intern",
+      "from": "Aug, 2020",
+      "to": "July, 2021",
+      "details": "I enhanced mobile UI, boosting user satisfaction by 15%, while improving backend systems with Express for a seamless experience. I implemented Role-Based Access Control (RBAC) using Cabin and Go, strengthening security, and optimized performance with Redis caching, reducing response times by 25% and increasing efficiency by 20%."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Generative AI Essentials",
+      "issuer": "AWS",
+      "issuedOn": "Sep 2024",
+      "url": "https://www.credly.com/badges/7ea7256a-e024-452a-9831-eeea9f5579d6/public_url"
+    },
+    {
+      "name": "SI Associate Certificate",
+      "issuer": "MongoDB",
+      "issuedOn": "Nov 2024",
+      "url": "https://ti-user-certificates.s3.amazonaws.com/ae62dcd7-abdc-4e90-a570-83eccba49043/5630a68e-759e-488a-944d-6c83f21cb049-sayantan-ghosh-4bc89335-4985-431b-a54b-57e20e9de4cd-certificate.pdf"
+    },
+    {
+      "name": "Expert Programmer (DSA)",
+      "issuer": "Infosys",
+      "issuedOn": "Feb 2025",
+      "url": "https://lex.infosysapps.com/public-assets/Infosys/cert/lex_auth_013706679239639040229/1-8bd12f79-7ed8-4b98-9154-88f8ea81ef84.pdf"
+    }
+  ]
+}

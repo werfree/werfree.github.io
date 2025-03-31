@@ -1,0 +1,58 @@
+.font{
+    color: var(--gray-90);
+}
+
+.status-ellipse-wrapper{
+    width: 8px;
+    height: 8px;
+    background-color: #cbf7df;
+    border-radius: 50%;
+}
+.status-ellipse{
+    width: 4px;
+    height: 4px;
+    background-color: #2ede7f;
+    border-radius: 50%;
+}
+
+.blink{
+    animation: blinkIn 1s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+@keyframes blinkIn {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0.2;
+    }
+    20%{
+        opacity: 0.4;
+    }
+    30%{
+        opacity: 0.6;
+    }
+    40%{
+        opacity: 0.8;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0.8;
+    }
+    70%{
+        opacity: 0.6;
+    }
+    80%{
+        opacity: 0.4;
+    }
+    90%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}

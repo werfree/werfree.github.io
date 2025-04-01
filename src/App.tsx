@@ -36,7 +36,7 @@ function App() {
         {/* <div className="bg-white rounded-xl my-1 mx-auto p-1">
           <Notify />
         </div> */}
-        <div className="flex flex-col mx-auto snap snap-y overflow-y-hidden">
+        <div className="flex flex-col mx-auto  overflow-y-hidden">
           <div className="mx-auto my-20 p-1">
             <Header email={portFolioData.email} resume={portFolioData.resume} />
           </div>

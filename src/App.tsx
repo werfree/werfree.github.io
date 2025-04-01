@@ -61,9 +61,12 @@ function App() {
               contactLink={portFolioData.contact}
             />
           </Section>
-          <Section id="footer">
+          <section
+            id={"footer"}
+            className={`mb-3 -scroll-mt-[-5rem] snap-start`}
+          >
             <Footer />
-          </Section>
+          </section>
         </div>
       </div>
     </div>

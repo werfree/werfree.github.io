@@ -1,4 +1,3 @@
-import React from "react";
 import { BsPerson as ProfileIcon } from "react-icons/bs";
 import { CiLocationOn as LocationIcon } from "react-icons/ci";
 import "./Profile.css";

@@ -39,10 +39,89 @@
       "url": "https://ti-user-certificates.s3.amazonaws.com/ae62dcd7-abdc-4e90-a570-83eccba49043/5630a68e-759e-488a-944d-6c83f21cb049-sayantan-ghosh-4bc89335-4985-431b-a54b-57e20e9de4cd-certificate.pdf"
     },
     {
+      "name": "Cloud Professional",
+      "issuer": "Infosys",
+      "issuedOn": "July 2024",
+      "url": "https://drive.google.com/file/d/10HmUU6kFYkocC8lVyvW_BcmQfU6Zwpxf/view?usp=sharing"
+    },
+    {
       "name": "Expert Programmer (DSA)",
       "issuer": "Infosys",
       "issuedOn": "Feb 2025",
       "url": "https://lex.infosysapps.com/public-assets/Infosys/cert/lex_auth_013706679239639040229/1-8bd12f79-7ed8-4b98-9154-88f8ea81ef84.pdf"
     }
-  ]
+  ],
+  "skills": [
+    {
+      "heading": "UI Engineer",
+      "tech": [
+        "ReactJS",
+        "Typescript",
+        "HTML",
+        "CSS",
+        "Redux",
+        "Tailwind CSS",
+        "NextJS"
+      ]
+    },
+    {
+      "heading": "Backend Engineer",
+      "tech": [
+        "NodeJS",
+        "Express",
+        "NestJS",
+        "RestAPI",
+        "GraphQL",
+        "MongoDB",
+        "MySQL",
+        "Kafka",
+        "Redis"
+      ]
+    },
+    {
+      "heading": "Languages & Tools",
+      "tech": ["Javascript", "Python", "Golang", "Docker", "Git", "AWS", "GCP"]
+    },
+    {
+      "heading": "Concept",
+      "tech": ["DSA", "OOPs", "System Design", "SDLC"]
+    }
+  ],
+  "awards": [
+    {
+      "name": "Insta Award 24",
+      "issuer": "Infosys",
+      "issuedOn": "Feb, 2024",
+      "details": "Recognized for exceptional problem-solving skills, quick execution of complex tasks, and strong dedication to project success.",
+      "link": "https://drive.google.com/file/d/1ov4ZUTXqCYiCXi1ZrZdGZbHsN4DisabD/view?usp=sharing"
+    },
+    {
+      "name": "Cloud Professional",
+      "issuer": "Infosys",
+      "issuedOn": "Dec, 2023",
+      "details": "Awarded the Cloud Professional Skill Tag by Infosys for demonstrating expertise in cloud technologies and contributing to the company's future readiness.",
+      "link": "https://drive.google.com/file/d/10HmUU6kFYkocC8lVyvW_BcmQfU6Zwpxf/view?usp=sharing"
+    },
+    {
+      "name": "hackForIndia",
+      "issuer": "Smart India Hackathon",
+      "issuedOn": "Jan, 2020",
+      "details": "Led a high-impact project to victory in an intra-college hackathon for the Smart India Hackathon, showcasing strong coding, teamwork, and problem-solving abilities.",
+      "link": "https://drive.google.com/file/d/1Qif2EtJMWCYSwdosrPoSWMzopmFu4cNr/view?usp=sharing"
+    },
+    {
+      "name": "Diversion",
+      "issuer": "ACM student Chapter",
+      "issuedOn": "Sep, 2019",
+      "details": "Secured 1st position among 64 teams in the International Undergraduate Project Competition for the project `Drive Safe`, demonstrating innovation and technical excellence.",
+      "link": "https://drive.google.com/file/d/1USSnWugm9sQSWNNUSH37dUQD4CUHDqmN/view?usp=sharing"
+    }
+  ],
+  "contact": {
+    "linkedIn": "https://www.linkedin.com/in/werfree/",
+    "github": "https://github.com/werfree/",
+    "instagram": "https://www.instagram.com/werfree_/"
+  },
+  "email": "gsayantan01@gmail.com",
+  "resume": "https://drive.google.com/file/d/16lCR48ZUTS47cTpWFjfvynLc0EFBrHKB/view"
 }

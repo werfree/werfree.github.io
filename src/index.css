@@ -17,6 +17,7 @@
   /* max-width: 760px; */
   
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
   background-color: #F9F9F9;
   --gray-background: #f9f9f9;
   --gray-60: #77777d;
@@ -30,6 +31,10 @@
   --dark-opacity-25: rgba(29, 29, 38, .25);
   --dark-opacity-5: rgba(29, 29, 38, .05);
   --red-border:#bb576c
+}
+
+.top-empty-div{
+  background-color: var(--gray-background);
 }
 
 body{

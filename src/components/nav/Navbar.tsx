@@ -1,10 +1,13 @@
-import React, { use, useState } from "react";
+import { useState } from "react";
 import "./Navbar.css";
+import { RxHamburgerMenu as HamburgerIcon } from "react-icons/rx";
+import { IoClose as CloseIcon } from "react-icons/io5";
+import NavLink from "./NavLink";
 function Navbar() {
-  const [navLink, setNavLink] = useState([
+  const [navLink] = useState([
     {
       name: "Home",
-      href: "#home",
+      href: "#",
       current: true,
     },
     {
@@ -22,19 +25,35 @@ function Navbar() {
       href: "#skills",
       current: false,
     },
+    {
+      name: "Awards",
+      href: "#awards",
+      current: false,
+    },
+    {
+      name: "Contact",
+      href: "#contact",
+      current: false,
+      hiddenInMd: true,
+    },
   ]);
+
+  const [openModal, setOpenModal] = useState(true);
+
+  const MenuIcon = openModal ? CloseIcon : HamburgerIcon;
   return (
-    <nav className="px-2 h-xl">
-      <div className="flex flex-wrap items-center p-1">
-        <a href="/" className="flex items-center rtl:space-x-reverse">
+    <nav className="">
+      <div className="px-2 h-xl rounded-xl bg-white flex flex-wrap items-center p-1 shadow-[0_6px_10px_rgba(29,29,38,0.04)]">
+        <a href="/" className="flex items-center rtl:space-x-reverse max-w-sm">
           <img
             src="/image-bw-small.png"
-            className="h-10 w-10 md:h-12 md:w-12 border-2 border-red rounded-xl"
+            className="h-10 w-10 md:h-12 md:w-12 border-1 border-red rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-105"
             alt="Sayantan Ghosh"
           />
         </a>
         <div className="flex flex-grow justify-end md:hidden">
           <button
+            onClick={() => setOpenModal(!openModal)}
             data-collapse-toggle="navbar-default"
             type="button"
             className="items-center h-10 w-10 md:h-12 md:w-12 justify-center text-sm text-white rounded-xl md:hidden bg-black focus:outline-none focus:ring-2 focus:ring-gray-200"
@@ -42,7 +61,7 @@ function Navbar() {
             aria-expanded="false"
           >
             <span className="sr-only">Open main menu</span>
-            <svg
+            {/* <svg
               className="w-5 h-10 m-auto items-center"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
@@ -56,20 +75,19 @@ function Navbar() {
                 stroke-width="2"
                 d="M1 1h15M1 7h15M1 13h15"
               />
-            </svg>
+            </svg> */}
+            <MenuIcon
+              size={20}
+              className="w-5 h-10 m-auto items-center"
+              aria-hidden="true"
+            />
           </button>
         </div>
         <ul
-          className="hidden md:flex flex-grow flex-row w-full md:w-auto justify-center text-body"
+          className={`hidden md:flex flex-grow flex-row w-full md:w-auto justify-start md:justify-center text-body`}
           id="navbar-default"
         >
-          {navLink.map((navItem) => (
-            <li className="mx-3 text- px-1 py-2 rounded-xl nav-item">
-              <a href={navItem.href} className="color-body" aria-current="page">
-                {navItem.name}
-              </a>
-            </li>
-          ))}
+          <NavLink openModal={setOpenModal} navItem={navLink} />
         </ul>
         <a
           href="#contact"
@@ -81,6 +99,15 @@ function Navbar() {
             <div>Contact Me</div>
           </div>
         </a>
+      </div>
+      <div
+        className={`absolute w-full max-container-width ${
+          openModal ? "md:hidden" : "hidden"
+        }  mt-2 mr-56 px-2  rounded-xl bg-white flex flex-wrap items-center p-1 shadow-[0_6px_10px_rgba(29,29,38,0.04)]`}
+      >
+        <ul className={`font-body color-body mt-5`} id="navbar-default">
+          <NavLink openModal={setOpenModal} navItem={navLink} />
+        </ul>
       </div>
     </nav>
   );

@@ -1,4 +1,3 @@
-import React from "react";
 import { IconType } from "react-icons";
 
 function SectionIcon({ Icon }: { Icon: IconType }) {

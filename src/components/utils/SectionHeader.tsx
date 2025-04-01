@@ -1,4 +1,3 @@
-import React from "react";
 import { IconType } from "react-icons";
 import SectionIcon from "./SectionIcon";
 import HeadingText from "./HeadingText";

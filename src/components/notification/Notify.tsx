@@ -1,4 +1,3 @@
-import React from "react";
 import "./Notify.css";
 function Notify() {
   return (

@@ -1,9 +1,8 @@
-import React from "react";
 import { MdOutlineMailOutline as EmailIcon } from "react-icons/md";
 import { HiOutlineDownload as DownloadIcon } from "react-icons/hi";
 import Notify from "../notification/Notify";
 
-function Header() {
+function Header({ email, resume }: { email: string; resume: string }) {
   return (
     <div className="flex flex-col max-w-[25rem]">
       <div className="flex justify-center bg-white rounded-xl  mx-auto mb-5 border-1 border-gray">
@@ -16,14 +15,22 @@ function Header() {
         Software Engineer specializing in UI Architecture & System Optimization{" "}
       </p>
       <div className="flex flex-col md:flex-row m-5">
-        <button className="flex flex-1/2 flex-row rounded-xl bg-black text-white font-sans font-bold p-2 m-2 mx-4  items-center gap-2 justify-center ">
+        <a
+          href={`mailto:${email}`}
+          target="_blank"
+          className="flex flex-1/2 flex-row rounded-xl bg-black text-white font-sans font-bold p-2 m-2 mx-4  items-center gap-2 justify-center cursor-pointer"
+        >
           <EmailIcon className="" size={18} />
           <div className="pt-[2px]">Send Email</div>
-        </button>
-        <button className="flex flex-1/2 flex-row rounded-xl button-gray text-black  p-2 m-2 mx-4  items-center gap-2 justify-center font-sans">
+        </a>
+        <a
+          href={`${resume}`}
+          target="_blank"
+          className="flex flex-1/2 flex-row rounded-xl button-gray text-black  p-2 m-2 mx-4  items-center gap-2 justify-center font-sans cursor-pointer"
+        >
           <DownloadIcon className="" size={18} />
           <div className="pt-[2px]">Download CV</div>
-        </button>
+        </a>
       </div>
     </div>
   );

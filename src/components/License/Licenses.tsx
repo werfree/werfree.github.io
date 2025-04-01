@@ -1,6 +1,4 @@
-import React from "react";
 import { LiaCertificateSolid as LicenseIcon } from "react-icons/lia";
-import { RiExternalLinkLine as LinkIcon } from "react-icons/ri";
 import SectionHeader from "../utils/SectionHeader";
 import { SectionBody, SectionBodyHeader } from "../utils/Section";
 import GrayButton from "../utils/GrayButton";
@@ -38,7 +36,7 @@ function Licenses({ licensesData }: LicenseProps) {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <GrayButton title={"Show Credential"} Icon={LinkIcon} />
+                <GrayButton title={"Show Credential"} />
               </a>
             </ul>
           );

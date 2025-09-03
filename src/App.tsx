@@ -21,6 +21,9 @@ type PortfolioDataType = {
   email: string;
   resume: string;
   contact: ContactType;
+  summary: string;
+  name: string;
+  tagline: string;
 };
 function App() {
   const portFolioData: PortfolioDataType = data;
@@ -38,10 +41,15 @@ function App() {
         </div> */}
         <div className="flex flex-col mx-auto  overflow-y-hidden">
           <div className="mx-auto my-20 p-1">
-            <Header email={portFolioData.email} resume={portFolioData.resume} />
+            <Header
+              name={portFolioData.name}
+              email={portFolioData.email}
+              resume={portFolioData.resume}
+              tagline={portFolioData.tagline}
+            />
           </div>
           <Section id="profile">
-            <Profile />
+            <Profile summary={portFolioData.summary} />
           </Section>
           <Section id="experience">
             <Experiences experienceDetails={portFolioData.experiences} />

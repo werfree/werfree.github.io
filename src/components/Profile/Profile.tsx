@@ -2,7 +2,7 @@ import { BsPerson as ProfileIcon } from "react-icons/bs";
 import { CiLocationOn as LocationIcon } from "react-icons/ci";
 import "./Profile.css";
 import HeadingText from "../utils/HeadingText";
-function Profile() {
+function Profile({ summary }: { summary: string }) {
   return (
     <div className="flex flex-col space-y-5 md:space-y-0 md:flex-row md:space-x-5">
       <div className="h-[400px] w-full md:h-auto md:w-auto flex flex-1 md:flex-5/12">
@@ -20,11 +20,7 @@ function Profile() {
         <div className="flex flex-col items-start">
           <HeadingText text="Professional Profile" />
           <p className="mt-3 text-sm/tight md:text-base/snug flex text-left font-body  color-body">
-            I am a Full-Stack Engineer at Infosys, working on Apple projects to
-            build scalable UIs and optimize performance. With expertise in
-            React, Next.js, NestJS, and GraphQL, I specialize in state
-            management, backend efficiency, and AI-driven solutions to create
-            impactful digital experiences.
+            {summary}
           </p>
         </div>
         <div className="flex items-center justify-items-start text-xs md:text-sm pb-2">

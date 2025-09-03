@@ -1,4 +1,7 @@
 {
+  "summary": "I am a Full-Stack Engineer at Infosys, working on Apple projects to build scalable UIs and optimize performance. With expertise in React, Next.js, NestJS, and GraphQL, I specialize in state management, backend efficiency, and AI-driven solutions. My experience includes integrating LLM-powered conversational and voice commands with MCP to automate workflows and developing an Agentic AI solution with LangGraph to streamline partner data management through multi-agent workflows.",
+  "tagline": " Software Engineer specializing in scalable web applications, UI architecture, and AI-powered solutions",
+  "name": "Sayantan Ghosh",
   "experiences": [
     {
       "position": "Specialist Programmer",
@@ -6,7 +9,7 @@
       "type": "Full-Time",
       "from": "Aug, 2022",
       "to": "Present",
-      "details": "I develop highly interactive web applications for Apple using React, creating seamless user experiences. I specialize in building reusable UI components, reducing development time by 20%, and optimizing state management with Redux for efficient data flow. As a Certified Full-Stack Developer, I have expertise in the MERN stack, enabling me to tackle complex web development challenges effectively."
+      "details": "I develop highly interactive web applications for Apple using React, delivering seamless and scalable user experiences. I specialize in building reusable UI components, reducing development time by 20%, and optimizing state management with Redux for efficient data flow. Alongside full-stack expertise in the MERN stack, I’ve integrated LLM-powered conversational and voice commands with MCP to automate workflows and enhance productivity. I also created an Agentic AI solution with LangGraph, leveraging multi-agent workflows to automate partner onboarding, validate details, and fetch subsidiary data with improved accuracy and scalability."
     },
     {
       "position": "Software Engineer",
@@ -80,11 +83,28 @@
     },
     {
       "heading": "Languages & Tools",
-      "tech": ["Javascript", "Python", "Golang", "Docker", "Git", "AWS", "GCP"]
+      "tech": [
+        "Javascript",
+        "Python",
+        "Golang",
+        "Docker",
+        "Git",
+        "AWS",
+        "GCP",
+        "LangGraph",
+        "LangChain"
+      ]
     },
     {
       "heading": "Concept",
-      "tech": ["DSA", "OOPs", "System Design", "SDLC"]
+      "tech": [
+        "DSA",
+        "OOPs",
+        "System Design",
+        "SDLC",
+        "Generative AI",
+        "Agentic AI"
+      ]
     }
   ],
   "awards": [
@@ -123,5 +143,5 @@
     "instagram": "https://www.instagram.com/werfree_/"
   },
   "email": "gsayantan01@gmail.com",
-  "resume": "https://drive.google.com/file/d/16lCR48ZUTS47cTpWFjfvynLc0EFBrHKB/view"
+  "resume": "https://drive.google.com/file/d/1CLlrQVeHAjmz8byOxJYXhHFBc1gUgizu"
 }

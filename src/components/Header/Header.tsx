@@ -2,17 +2,25 @@ import { MdOutlineMailOutline as EmailIcon } from "react-icons/md";
 import { HiOutlineDownload as DownloadIcon } from "react-icons/hi";
 import Notify from "../notification/Notify";
 
-function Header({ email, resume }: { email: string; resume: string }) {
+function Header({
+  email,
+  resume,
+  name,
+  tagline,
+}: {
+  email: string;
+  resume: string;
+  name: string;
+  tagline: string;
+}) {
   return (
     <div className="flex flex-col max-w-[25rem]">
       <div className="flex justify-center bg-white rounded-xl  mx-auto mb-5 border-1 border-gray">
         <Notify />
       </div>
-      <h1 className="text-3xl md:text-5xl font-bold text-black">
-        Sayantan Ghosh
-      </h1>
+      <h1 className="text-3xl md:text-5xl font-bold text-black">{name}</h1>
       <p className="text-base/snug md:text-sm/relaxed font header-summary mt-2 color-body font-body">
-        Software Engineer specializing in UI Architecture & System Optimization{" "}
+        {tagline}
       </p>
       <div className="flex flex-col md:flex-row m-5">
         <a
